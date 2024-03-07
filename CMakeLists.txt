@@ -21,5 +21,3 @@ add_subdirectory(test)
 
 enable_testing()
 
-include(GoogleTest)
-gtest_discover_tests(my_tests)
