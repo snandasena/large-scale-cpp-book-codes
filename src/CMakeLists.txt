@@ -2,7 +2,7 @@
 
 file(GLOB SOURCES "*.cpp")
 
-add_executable(project_name ${SOURCES})
+add_executable(large_scale_cpp ${SOURCES})
 
 # Include directories
-target_include_directories(project_name PUBLIC ${CMAKE_SOURCE_DIR}/include)
+target_include_directories(large_scale_cpp PUBLIC ${CMAKE_SOURCE_DIR}/include)
