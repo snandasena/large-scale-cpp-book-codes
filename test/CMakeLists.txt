@@ -14,7 +14,3 @@ FetchContent_MakeAvailable(googletest)
 
 # Link against Google Test and the project libraries
 target_link_libraries(test_project PRIVATE gtest_main)
-
-# Link against the project libraries
-# If your project has multiple libraries, you should list them here
-#target_link_libraries(test_project PRIVATE your_library_name)

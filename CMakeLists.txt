@@ -9,7 +9,7 @@ if (POLICY CMP0141)
 endif()
 
 
-project(project_name)
+project(large_scale_cpp)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 20)
