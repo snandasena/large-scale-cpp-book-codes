@@ -14,3 +14,7 @@ FetchContent_MakeAvailable(googletest)
 
 # Link against Google Test and the project libraries
 target_link_libraries(test_project PRIVATE gtest_main)
+
+
+include(GoogleTest)
+gtest_discover_tests(test_project)
